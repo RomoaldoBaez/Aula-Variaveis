@@ -9,4 +9,5 @@ const idadeNumero = 19
 const idadeTexto = idadeNumero.toString()
 console.log(typeof idadeNumero)
 console.log(typeof idadeTexto)
+console.log("oi")
 
