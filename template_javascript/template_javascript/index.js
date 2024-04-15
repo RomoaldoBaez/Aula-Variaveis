@@ -38,3 +38,4 @@ console.log(typeof mensagem)
 console.log(mensagem)
 //Saída de valores para Front End
 alert(mensagem)
+console.log("asasa")
