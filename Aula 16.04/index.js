@@ -63,8 +63,8 @@
 //let resultado = primeiroValor + segundoValor 
 //alert(resultado)
 
-//let primeiroValor = 3
-//let segundoValor = 5 
-//resultado = primeiroValor * segundoValor
-//resultado = resultado / 2
-//alert(resultado)
+let primeiroValor = 3
+let segundoValor = 5 
+resultado = primeiroValor * segundoValor
+resultado = resultado / 2
+alert(resultado)
