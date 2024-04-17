@@ -1,87 +1,82 @@
+//Exercicio 1
+//Variaveis 
+/*let minhaIdade
+let idadeAmigo
+let idadeMaior
+let diferençaIdade
 
-/*
-//declaração de variaveis
-let primeiroNumero 
-let segundoNumero 
-let resultado1
-let resultado2
-let resultado3
-let resultado4
+//Valores informados pelo usuario
+minhaIdade = Number(prompt("Qual sua idade?"))
+idadeAmigo = Number(prompt("Qual a idade do seu amigo?"))
 
-//leitura de dados informados pelo usuario
-primeiroNumero = prompt("Digite o primeiro numero")
-segundoNumero = prompt("Digite o segundo numero")
-
-//teste de commparação
-resultado1 = primeiroNumero === segundoNumero
-resultado2 = primeiroNumero < segundoNumero
-resultado3 = primeiroNumero > segundoNumero
-resultado4 = primeiroNumero !== segundoNumero
-
-//mostra o resultado 
-alert(resultado1)
-alert(resultado2)
-alert(resultado3)
-alert(resultado4)
-*/
-
-/*
-
-//Exercício de operadores logicos
-let a 
-let b 
-let c 
-let resultado1
-let resultado2
-let resultado3
-let resultado4
+//calculo dos dados 
+diferençaIdade = minhaIdade - idadeAmigo 
+idadeMaior = minhaIdade > idadeAmigo
 
 
-//Leitura dos dados informados pelo usuario 
-a = true 
-b = false 
-c = true
-
-//realize a operação a && b 
-resultado1 = a && b
-resultado2 = b && c 
-resultado3 = a && c
-resultado4 = a && b && c
-alert(resultado1)
-alert(resultado2)
-alert(resultado3)
-alert(resultado4)
-
-*/
+//resultado 
+console.log(diferençaIdade)
+console.log(idadeMaior)*/
 
 
+//Exercicio 2 
+
+/*let numeroPar 
+
+//dados
+numeroPar = prompt("Digite um numero par")
+
+//calculo 
+console.log((numeroPar % 2)==0)*/
+
+
+//Exercicio 3 
+/*let idadeAnos
+let idadeMeses
+let idadeDias 
+let idadeHoras 
+
+// dados 
+idadeAnos = prompt("Digite sua idade em anos")
+
+//calculo dos dados
+idadeMeses = idadeAnos * 12
+idadeDias = idadeAnos * 365
+idadeHoras = idadeAnos * (365 * 24)
+//resultado 
+console.log(idadeMeses)
+console.log(idadeDias)
+console.log(idadeHoras)*/
+
+//Exercicio 4
 //variaveis
-let nome 
-let idade 
-let anodeNascimento
-let anoAtual
-let maiorIdade
-let idade2050
+let num1
+let num2 
+let num1Maior2
+let num1Igual2
+let num1Divisivel2
+let num2Divisivel1
 
-//valores informados
-nome = prompt("Digite seu nome")
-anodeNascimento = prompt("Qual seu ano de nascimento?")
-anoAtual = prompt("Qual seu ano atual?")
+//dados
 
+num1 = Number(prompt("Escreva um numero"))
+num2 = Number(prompt("Escreva outro numero"))
 
-//calculo dos valores
-
-idade  = anoAtual - anodeNascimento
-maiorIdade = idade >= 18 
-idade2050 = 2050 - anodeNascimento
-
-//resultados 
-alert(nome) 
-alert(idade)
-alert(maiorIdade)
-alert(idade2050)  
+//calculo dos dados
+num1Maior2 = num1 > num2
+num1Igual2 = num1 == num2
 
 
+//resultado 
+console.log(num1Maior2)
+console.log(num1Igual2)
+console.log((num1 % num2) == 0) 
+console.log((num2 % num1)==0)
+ //alert
+ alert(num1Igual2)
+ alert(num1Igual2)
+ alert((num1 % num2)== 0)
+ alert((num2 % num1)== 0)
 
 
 
