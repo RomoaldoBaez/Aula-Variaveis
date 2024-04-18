@@ -50,7 +50,7 @@ console.log(idadeHoras)*/
 
 //Exercicio 4
 //variaveis
-let num1
+/*let num1
 let num2 
 let num1Maior2
 let num1Igual2
@@ -66,17 +66,40 @@ num2 = Number(prompt("Escreva outro numero"))
 num1Maior2 = num1 > num2
 num1Igual2 = num1 == num2
 
-
 //resultado 
 console.log(num1Maior2)
 console.log(num1Igual2)
 console.log((num1 % num2) == 0) 
 console.log((num2 % num1)==0)
+
  //alert
  alert(num1Igual2)
  alert(num1Igual2)
  alert((num1 % num2)== 0)
- alert((num2 % num1)== 0)
+ alert((num2 % num1)== 0)*/
+
+ //Desafios 
+let kelvin
+let fahrenheit
+let celsius
+let kelvin2
+let fahrenheit2
+
+//calculo
+kelvin = (77 - 32)*(5/9)+273.15
+fahrenheit =(80)*(9/5)+32
+fahrenheit2 =(30)*(9/5)+32
+kelvin2 =(30 - 32)*(5/9)+273.15
+
+
+//resultado
+console.log(kelvin)
+console.log(fahrenheit)
+console.log(fahrenheit2)
+console.log(kelvin2)
+
+
+
 
 
 
