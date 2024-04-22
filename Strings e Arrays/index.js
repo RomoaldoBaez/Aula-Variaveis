@@ -25,12 +25,13 @@ const raças = ["Pastor-alemão" , "Buldogue" , "Golden retriever", "Beagle", "P
 const raçaEscolhida = raças[numero]
 console.log(raçaEscolhida)*/
 
-const lista =[1, 2, 3, 4, 5, 6]
+/*const lista =[1, 2, 3, 4, 5, 6]
 lista .push(7)
 console.log(lista)
 lista .splice(3, 2)
 console.log(lista)
-console.log(lista .length)
+console.log(lista .length)*/
+
 
 
 

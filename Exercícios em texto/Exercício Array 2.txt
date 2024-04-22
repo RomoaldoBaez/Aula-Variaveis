@@ -1,0 +1,7 @@
+const frase = prompt("Digite uma frase")
+
+console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length)
+
+"Subi num ônibus em Marrocos"
+=
+SUBI NUM ôNIBUS EM MIRROCOS 27

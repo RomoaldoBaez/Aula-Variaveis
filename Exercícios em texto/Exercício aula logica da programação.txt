@@ -1,0 +1,22 @@
+Trocar uma lâmpada 
+1-Constatar que a lâmpada esta queimada 
+2-Ir ao mercado 
+3-Comprar uma lâmpada nova
+4-Voltar para casa
+5-Utilizar uma escada/cadeira para alcançar a lâmpada queimada
+6-Retirar a lâmpada antiga 
+7-Colocar a lâmpada nova
+
+Vir até o SENAC
+1-Acordar 
+2-Tomar banho 
+3-Tomar café 
+4-Se arrumar 
+5-Sair de casa 
+6-Andar até a parada de Ônibus 
+7-Esperar o Ônibus 
+8-Entrar no Ônibus 
+9-chegar na Unisinos 
+10-Andar até sala 
+11- Entrar na sala 
+12-Sentar na cadeira
