@@ -60,18 +60,22 @@ remover = prompt("Digite o indice da tarefa para remove-la")
 listaDeTarefas.splice(remover,1)
 console.log(listaDeTarefas)*/
 
-//Desafio
-/*texto = prompt("Digite uma frase")
-const array = texto.split("")
-console.log(array)*/
+//Desafio 1
+/*const  texto = prompt("Digite uma frase")
 
-/*let condiçao1 = true
-if(condiçao1){console.log('entrei no if 1')}
-let condiçao2 = false
-if(condiçao2){console.log('entrei no if 2')}*/
-let numero1
-let numeor2
-numero1 = prompt("numero")
-al = prompt("numero2")
-if(numero1 = al){console.log(true)}
+const array = texto.split(" ");
+
+console.log(array)*/
+//desafio 2 
+
+const lista = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"]
+
+const elementIndex = lista.findIndex(checkNumber)
+
+function checkNumber(elementIndex){
+    return elementIndex === "Abacaxi"
+}
+console.log(elementIndex)
+console.log(lista.length)
+
 
