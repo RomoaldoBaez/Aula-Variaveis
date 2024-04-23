@@ -73,5 +73,7 @@ let numero1
 let numeor2
 numero1 = prompt("numero")
 al = prompt("numero2")
-if(numero1 = al){console.log(true)}
+if(numero1 = al){
+    return console.log(true)
+}
 
