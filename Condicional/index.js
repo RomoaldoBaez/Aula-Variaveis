@@ -78,7 +78,7 @@ if(idade > 18 ){
 
 //Exercício 2 
 //dados
-let turno = prompt("Digite seu truno como M para (matutino),  V (Vespertino), N (Noturno)") 
+/*let turno = prompt("Digite seu truno como M para (matutino),  V (Vespertino), N (Noturno)") 
 
 //if 
 if(turno === "M"){
@@ -90,6 +90,23 @@ alert("Bom Dia")
 }else if(turno === "N"){
     console.log("Boa Noite")
     alert("Boa Noite")
+}
+*/
+//Exercício 3
+let turno = prompt("Digite seu truno como M para (matutino),  V (Vespertino), N (Noturno)")
+
+//switch case
+switch(turno) {
+    case 'V' :
+       alert("Bom Dia")
+       break 
+    case 'M':
+       alert("Boa Tarde")
+       break
+    case 'N':
+       alert("Boa Noite")
+       default:
+        alert("Nenhum dos anteriores")
 }
 
 
