@@ -102,6 +102,35 @@ if ((filme == "FANTASIA") && (preço <= 15)){
 }else {
     alert("Escolha outro filme!!!")
 }
+*/
+//Exercício 3
+/*let turno = prompt("Digite seu truno como M para (matutino),  V (Vespertino), N (Noturno)")
+
+//switch case
+switch(turno) {
+    case 'V' :
+       alert("Bom Dia")
+       break 
+    case 'M':
+       alert("Boa Tarde")
+       break
+    case 'N':
+       alert("Boa Noite")
+       default:
+        alert("Nenhum dos anteriores")
+}*/
+//dados
+let filme = prompt("Digite o genero do filme")
+let preço = number(prompt("preço"))
+
+//if
+if(filme === "fantasia"){
+    console.log("Filme de Fantasia")
+}else if(preço === 15){
+    console.log("Preço Bom")
+}
+
+
 
 
 
