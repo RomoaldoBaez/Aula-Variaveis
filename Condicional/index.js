@@ -78,7 +78,7 @@ if(idade > 18 ){
 
 //Exercício 2 
 //dados
-let turno = prompt("Digite seu truno como M para (matutino),  V (Vespertino), N (Noturno)") 
+/*let turno = prompt("Digite seu truno como M para (matutino),  V (Vespertino), N (Noturno)") 
 
 //if 
 if(turno === "M"){
@@ -90,7 +90,20 @@ alert("Bom Dia")
 }else if(turno === "N"){
     console.log("Boa Noite")
     alert("Boa Noite")
+}*/
+//dados
+let filme = prompt("Digite o genero do filme")
+let preço = Number(prompt("preço"))
+filme = filme.toUpperCase()
+
+//if
+if ((filme == "FANTASIA") && (preço <= 15)){
+    alert("Bom Filme!")
+}else {
+    alert("Escolha outro filme!!!")
 }
+
+
 
 
 
