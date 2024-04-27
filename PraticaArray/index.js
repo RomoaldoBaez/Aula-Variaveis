@@ -68,12 +68,12 @@ const array = texto.split(" ");
 console.log(array)*/
 //desafio 2 
 
-const lista = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"]
+const lista = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa", "Goiaba"]
 
 const elementIndex = lista.findIndex(checkNumber)
 
 function checkNumber(elementIndex){
-    return elementIndex === "Abacaxi"
+    return elementIndex === "Goiaba"
 }
 console.log(elementIndex)
 console.log(lista.length)
