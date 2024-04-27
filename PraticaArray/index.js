@@ -78,4 +78,15 @@ function checkNumber(elementIndex){
 console.log(elementIndex)
 console.log(lista.length)
 
+/*let condiçao1 = true
+if(condiçao1){console.log('entrei no if 1')}
+let condiçao2 = false
+if(condiçao2){console.log('entrei no if 2')}*/
+let numero1
+let numeor2
+numero1 = prompt("numero")
+al = prompt("numero2")
+if(numero1 = al){
+    return console.log(true)
+}
 
