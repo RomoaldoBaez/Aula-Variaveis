@@ -2,7 +2,7 @@
 let pessoa = {
     nome: "jonatas",
     idade: 35,
-    feliz: true,
+    feliz: true ,
     pets:["cachorro", "gato"],
     carros: {
         camaro:{
