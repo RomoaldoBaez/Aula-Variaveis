@@ -34,7 +34,7 @@ do{
     c++
 }while(c <= 10)*/
 //dados
-let numPet= prompt("Digite quantos pets voce tem")
+/*let numPet= prompt("Digite quantos pets voce tem")
  
 //varificar se é 0
 if(numPet === 0){
@@ -52,7 +52,18 @@ for(let i = 0; i < numPet; i++ ){
 
 //imprimir array 
 console.log("Nomes dos bichinhos de estimação:");
-console.log(nomesDosPets)
+console.log(nomesDosPets)*/
+
+//Exercício 2
+function imprimirValores(array) {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i]);
+    }
+}
+
+// 
+const arrayOriginal = [1, 2, 3, 4, 5];
+imprimirValores(arrayOriginal);
 
 
 
