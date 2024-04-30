@@ -55,7 +55,7 @@ console.log("Nomes dos bichinhos de estimação:");
 console.log(nomesDosPets)*/
 
 //Exercício 2
-function imprimirValores(array) {
+/*function imprimirValores(array) {
     for (let i = 0; i < array.length; i++) {
         console.log(array[i]);
     }
@@ -63,7 +63,7 @@ function imprimirValores(array) {
 
 // 
 const arrayOriginal = [1, 2, 3, 4, 5];
-imprimirValores(arrayOriginal);
+imprimirValores(arrayOriginal);*/
 
 
 
