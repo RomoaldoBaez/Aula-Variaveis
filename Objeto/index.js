@@ -1,5 +1,5 @@
 //Objeto exemplo
-let pessoa = {
+/*let pessoa = {
     nome: "jonatas",
     idade: 35,
     feliz: true ,
@@ -13,6 +13,16 @@ let pessoa = {
             placa:"776658",
             cor: "azul"
         }
+    }*/
+
+//
+let nome 
+const professores = [ 
+    {nome: "joao",
+     nome2 : "joao",
+     nome3 : "marcos"
     }
-}
-console.log(pessoa,idade)
+    
+    ]
+    console.log(professores[2].nome2)
+    

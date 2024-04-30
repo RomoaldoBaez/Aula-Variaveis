@@ -17,7 +17,7 @@ numeros =    Number(prompt("digite varios numeros um após o outro, quando o num
 //alert
 alert(soma)
 */
-const lista = [11, 15, 18, 14, 12, 13]
+/*const lista = [11, 15, 18, 14, 12, 13]
 
 let maiorNumero = 0 
 
@@ -27,7 +27,32 @@ for(let i = 0; i < 6; i++){
          maiorNumero = lista[i]
     }
 }  
-alert(maiorNumero)
+alert(maiorNumero)*/
+/*let c = 1
+do{
+    console.log(`oi ${c}`)
+    c++
+}while(c <= 10)*/
+//dados
+let numPet= prompt("Digite quantos pets voce tem")
+ 
+//varificar se é 0
+if(numPet === 0){
+    console.log("Que pena! Você pode adotar um pet!")
+}else {
+    let = nomesDosPets = [];
+}
+
+//loop
+for(let i = 0; i < numPet; i++ ){
+    let nomePet = prompt("Digite o nome do seu pet:");
+    nomesDosPets.push(nomePet);
+
+}
+
+//imprimir array 
+console.log("Nomes dos bichinhos de estimação:");
+console.log(nomesDosPets)
 
 
 
