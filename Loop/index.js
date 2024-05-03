@@ -7,12 +7,36 @@ class Abrigo {
         this.cidade = cidade;
     }
 
+<<<<<<< HEAD
     toString() {
         return `${this.nome} | ${this.endereco} | ${this.telefone} | ${this.capacidade} | ${this.cidade}`;
     }
 }
 
 const abrigos = [];
+=======
+//loop
+for(let i = 0; i < numPet; i++ ){
+    let nomePet = prompt("Digite o nome do seu pet:");
+    nomesDosPets.push(nomePet);
+
+}
+
+//imprimir array 
+console.log("Nomes dos bichinhos de estimação:");
+console.log(nomesDosPets)*/
+
+//Exercício 2
+/*function imprimirValores(array) {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i]);
+    }
+}
+
+// 
+const arrayOriginal = [1, 2, 3, 4, 5];
+imprimirValores(arrayOriginal);*/
+>>>>>>> 4e9f789e435969cb847435aa53d072b9cbacc7c2
 
 function cadastrarAbrigo() {
     console.log("----- Cadastro de Abrigo -----");
