@@ -1,70 +1,58 @@
-//variaveis
-/*let numeros = 0
-let soma = 0
-//primiera mensagem
-
-numeros = Number(prompt("digite varios numeros um após o outro, quando o numero digitado for 0 os numeros serao somados"))
-
-//loop
-
-while(numeros != 0 ) {
-    //soma
-    soma = soma + numeros
-    //le os valores para somar 
-numeros =    Number(prompt("digite varios numeros um após o outro, quando o numero digitado for 0 os numeros serao somados"))
-
-}
-//alert
-alert(soma)
-*/
-/*const lista = [11, 15, 18, 14, 12, 13]
-
-let maiorNumero = 0 
-
-for(let i = 0; i < 6; i++){
-    let numeroAtual = Array[i]
-    if(lista[i] > maiorNumero ){
-         maiorNumero = lista[i]
+class Abrigo {
+    constructor(nome, endereco, telefone, capacidade, cidade) {
+        this.nome = nome;
+        this.endereco = endereco;
+        this.telefone = telefone;
+        this.capacidade = capacidade;
+        this.cidade = cidade;
     }
-}  
-alert(maiorNumero)*/
-/*let c = 1
-do{
-    console.log(`oi ${c}`)
-    c++
-}while(c <= 10)*/
-//dados
-/*let numPet= prompt("Digite quantos pets voce tem")
- 
-//varificar se é 0
-if(numPet === 0){
-    console.log("Que pena! Você pode adotar um pet!")
-}else {
-    let = nomesDosPets = [];
-}
 
-//loop
-for(let i = 0; i < numPet; i++ ){
-    let nomePet = prompt("Digite o nome do seu pet:");
-    nomesDosPets.push(nomePet);
-
-}
-
-//imprimir array 
-console.log("Nomes dos bichinhos de estimação:");
-console.log(nomesDosPets)*/
-
-//Exercício 2
-function imprimirValores(array) {
-    for (let i = 0; i < array.length; i++) {
-        console.log(array[i]);
+    toString() {
+        return `${this.nome} | ${this.endereco} | ${this.telefone} | ${this.capacidade} | ${this.cidade}`;
     }
 }
 
-// 
-const arrayOriginal = [1, 2, 3, 4, 5];
-imprimirValores(arrayOriginal);
+const abrigos = [];
 
+function cadastrarAbrigo() {
+    console.log("----- Cadastro de Abrigo -----");
+    const nome = prompt("Nome do abrigo: ");
+    const endereco = prompt("Endereço do abrigo: ");
+    const telefone = prompt("Telefone do abrigo: ");
+    const capacidade = parseInt(prompt("Capacidade de lotação do abrigo: "));
+    const cidade = prompt("Cidade do abrigo: ");
 
+    const abrigo = new Abrigo(nome, endereco, telefone, capacidade, cidade);
+    abrigos.push(abrigo);
+    console.log("Abrigo cadastrado com sucesso!\n");
+}
 
+function menu() {
+    while (true) {
+        console.log("===== ABRIGOS TEMPORÁRIOS =====");
+        console.log("1. Cadastrar abrigo");
+        console.log("2. Listar abrigos");
+        console.log("3. Procurar abrigo");
+        console.log("4. Sair");
+        const opcao = prompt("Escolha uma opção: ");
 
+        switch (opcao) {
+            case "1":
+                cadastrarAbrigo();
+                break;
+            case "2":
+                listarAbrigos();
+                break;
+            case "3":
+                procurarAbrigo();
+                break;
+            case "4":
+                console.log("Saindo do programa...");
+                return;
+            default:
+                console.log("Opção inválida. Tente novamente.");
+        }
+    }
+}
+
+menu();
